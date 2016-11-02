@@ -1,0 +1,33 @@
+/* Add borders to the form*/
+
+form {
+  border: 5px solid #f1f1f1;
+}
+
+/* Styling the Buttons */
+
+button {
+  background-color: #4CAF50
+  cursor: pointer;
+  width:100%
+
+}
+
+/* Center the title inside this container */
+.titlecontainer {
+  text-align: center;
+  margin: auto;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 12px;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
