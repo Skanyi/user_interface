@@ -2,19 +2,18 @@
 <html>
 <link rel="stylesheet" type="text/css" href="login.css"
 <body>
-
-  <form action="action_page.php">
+<legend>
+  <form action="action_page.php" name="myform">
     <div class="titlecontainer">
       <h2> Login To Continue</p>
     </div>
-
     <div class="container">
-      <label><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <p><label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required></p>
 
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
+      <p><label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required></p>
+</legend>
       <button type="submit">Login</button>
       <input type="checkbox" checked="checked"> Remember me
     </div>
